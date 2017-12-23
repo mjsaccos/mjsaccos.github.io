@@ -1,0 +1,53 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 3em;
+  color: #0c9a16;
+}
+p {
+  color: #0c9a16;
+}
+
+img#logo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+table {
+  margin-top: 40px
+}
+th.table_heading {
+  color: red;
+  font-size: 2em;
+}
+table tr {
+  text-align: left;
+  }
+table td {
+  padding: 20px;
+  text-align: center;
+}
+
+div.note {
+  position: absolute;
+  top: 500px;
+  left: 0;
+  background: #0c9a16;
+  color: #fff;
+  font-size: 3em;
+  margin: 30px;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
